@@ -45,7 +45,7 @@ int acharPonto(int x1, int y1, int x2, int y2,int px, int py,char c, int e){   /
 
 }
 
-class obstacle {
+class obstacle {				//cria as classes obstáculo, jogador e bola
     float pos_x, pos_y;
     public:
     obstacle (float, float);
