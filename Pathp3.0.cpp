@@ -91,6 +91,7 @@ int main (){
     int pontos[12][2];
     int bolax,bolay,jogx,jogy,contornox,contornoy;
 
+//g++ -o Pathp3.0 Pathp3.0.cpp -lsfml-window -lsfml-graphics -lsfml-system
 
     sf::RenderWindow window(sf::VideoMode(930, 630), "Path Planning");
     
@@ -247,5 +248,3 @@ int main (){
         window.display();
     }
 }
-
-//g++ -o Pathp3.0 Pathp3.0.cpp -lsfml-window -lsfml-graphics -lsfml-system
